@@ -31,7 +31,7 @@ namespace FinalSprintProject
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            calendar f1 = new calendar();
+            calendarNew f1 = new calendarNew();
             f1.ShowDialog();
         }
 
@@ -45,7 +45,7 @@ namespace FinalSprintProject
 
             MessageBox.Show("Event saved");
             this.Hide();
-            calendar f3 = new calendar();
+            calendarNew f3 = new calendarNew();
             f3.ShowDialog();
 
             // this.Hide();

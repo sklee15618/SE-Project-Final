@@ -27,7 +27,7 @@ namespace FinalSprintProject
         private void checkOutButton_Click(object sender, EventArgs e)
         {
             DBConnect c = new DBConnect();
-            c.Inventory(this.idTxt.Text, this.equipTxt.Text, 0);
+           // c.Inventory(this.idTxt.Text, this.equipTxt.Text, 0);
             MessageBox.Show("Checked out!");
         }
 

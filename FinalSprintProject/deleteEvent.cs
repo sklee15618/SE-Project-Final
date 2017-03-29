@@ -60,7 +60,7 @@ namespace FinalSprintProject
         private void cancelButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            calendar f2 = new calendar();
+            calendarNew f2 = new calendarNew();
             f2.ShowDialog();
         }
 
@@ -94,7 +94,7 @@ namespace FinalSprintProject
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            // Something new FUCK YOU, no fuck you
+            // 
             {
                 string constring = "datasource=localhost;port=3306;username=root;password=3a1w";
                 string Query = "delete from sample_table.event where name = '"+ this.comboBox1.Text +"' ;"; 
@@ -114,7 +114,7 @@ namespace FinalSprintProject
                     }
                     MessageBox.Show("Event deleted");
                     this.Hide();
-                    calendar f3 = new calendar();
+                    calendarNew f3 = new calendarNew();
                     f3.ShowDialog();
 
                 }

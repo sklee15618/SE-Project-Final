@@ -146,7 +146,7 @@
             this.PrintName_txt.Name = "PrintName_txt";
             this.PrintName_txt.Size = new System.Drawing.Size(137, 22);
             this.PrintName_txt.TabIndex = 10;
-            this.PrintName_txt.TextChanged += new System.EventHandler(this.PrintName_txt_TextChanged);
+            //this.PrintName_txt.TextChanged += new System.EventHandler(this.PrintName_txt_TextChanged);
             // 
             // Gender_txt
             // 
