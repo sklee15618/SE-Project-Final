@@ -94,7 +94,7 @@ namespace FinalSprintProject
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-
+            // Something new
             {
                 string constring = "datasource=localhost;port=3306;username=root;password=3a1w";
                 string Query = "delete from sample_table.event where name = '"+ this.comboBox1.Text +"' ;"; 
