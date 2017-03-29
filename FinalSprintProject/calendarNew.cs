@@ -149,9 +149,14 @@ namespace FinalSprintProject
 
         private void searchEventName_TextChanged(object sender, EventArgs e)
         {
-            DataView DV = new DataView(dbdataset);
-            DV.RowFilter = "Convert(ID, 'System.String') like '%" + SearchPatronID.Text + "%'";
-            PatronProfileView.DataSource = DV;
+           // DataView DV = new DataView(dbdataset);
+           // DV.RowFilter = "Convert(ID, 'System.String') like '%" + SearchPatronID.Text + "%'";
+          //  PatronProfileView.DataSource = DV;
+        }
+
+        private void EventsLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

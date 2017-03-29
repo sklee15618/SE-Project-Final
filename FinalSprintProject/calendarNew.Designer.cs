@@ -72,6 +72,7 @@
             this.EventsLabel.Size = new System.Drawing.Size(145, 24);
             this.EventsLabel.TabIndex = 1;
             this.EventsLabel.Text = "Search Events";
+            this.EventsLabel.Click += new System.EventHandler(this.EventsLabel_Click);
             // 
             // monthCalendar1
             // 
